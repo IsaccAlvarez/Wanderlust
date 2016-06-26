@@ -20,8 +20,13 @@ if(isset($_POST['name']))
 	 
 	if(@mail($to,$subject,$message,$headers))
 	{
-	  $text = "<span style='color:blue; font-size: 35px; line-height: 40px; margin: 10px;'>Your Message was sent successfully !</span>";
-	}
+		if(@mail("salazarUCR@gmail.com",$subject,$message,$headers))
+			{
+				  $text = "<span style='color:blue; font-size: 35px; line-height: 40px; margin: 10px;'>Your Message was sent successfully !</span>";
+				}			
+}
+
+
 }
 ?>
 <!DOCTYPE html>
