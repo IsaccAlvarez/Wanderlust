@@ -54,7 +54,7 @@ if(isset($_POST['name']))
     <link href="owl-carousel/owl.theme.css" rel="stylesheet">
 	
 	<!-- jQuery and Modernizr-->
-	<script src="js/jquery-2.1.1.js"></script>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
 	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
